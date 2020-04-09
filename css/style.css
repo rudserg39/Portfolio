@@ -20,7 +20,7 @@ body {
 }
 
 .header__container {
-  background-color: #4c5eab;
+  background: linear-gradient(0deg, rgba(95,112,187,1) 0%, rgba(105,123,199,1) 100%);
 }
 
 .header__wrapper {
@@ -119,7 +119,6 @@ body {
 
 .education__container {
   width: 350px;
-  padding-bottom: 400px;
 }
 
 .title {
@@ -164,6 +163,10 @@ body {
 
 .courses__item-certificate:hover {
   box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.75);
+}
+
+.info__wrapper {
+  padding-bottom: 150px;
 }
 
 .introduction__title {
@@ -259,6 +262,8 @@ body {
 
 .card__image {
   position: relative;
+  height: 203px;
+  border: 1px dashed #a7a7a7;
 }
 
 .card__description {
@@ -287,7 +292,7 @@ body {
 }
 
 .footer__container {
-  background-color: #4c5eab;
+  background: linear-gradient(0deg, rgba(95,112,187,1) 0%, rgba(105,123,199,1) 100%);
 }
 
 .footer__wrapper {
@@ -309,7 +314,6 @@ body {
   color: #ffffff;
   cursor: default;
 }
-
 
 .attribution__item a {
   cursor: pointer;
